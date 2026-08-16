@@ -1,7 +1,16 @@
 import os
-os.system("cls")
-x=22
+
+def cls():
+        os.system("cls")
+
+def line():
+        for i in range(100):
+            print("=",end="")
+        print(" ")
+        
+cls()
+line()
+print("Enter Your name: ",end="")
 y=input()
-z=f"I am {x} years old"
-print(z.upper())
-print(y)
+line()
+print(y.upper(),"is your name.")
