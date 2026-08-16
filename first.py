@@ -16,7 +16,7 @@ line()
 
 print("Enter Your name: ", end="")
 y = input()
-y = y.title()
+y = y.title() #capitalize first latter of the word
 
 print("Enter your age: ", end="")
 x = input()
