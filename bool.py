@@ -14,37 +14,23 @@ def cls():
     
 def pause():
     os.system("pause")
-
-cls()
-line()
-center(38)
-print("|| Enter your details ||")
-line()
-
-print("Enter your name: ",end="")
-name=input()
-print("Enter your age: ",end="")
-age=input()
-line()
-pause()
+    
+def myfun():
+    ans=input()
+    if ans == "2":
+        return bool(ans)
+    else:
+        ans = 0
+        return bool(ans)
 
 cls()
 line()
 center(42)
-print("|| Your details ||")
+print("|| BOOL ||")
 line()
-print("Name: "+name.title())
-print("Age: ",age)
-line()
-pause()
 
-cls()
-line()
-center(42)
-print("|| Your details ||")
-line()
-print("Name:",bool(name))
-print("Age: ",+bool(age),"\n# 1 Output means its true..")
+print("1+1= ",end="")
+print(myfun())
 line()
 pause()
 
