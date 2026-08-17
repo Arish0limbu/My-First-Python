@@ -38,4 +38,13 @@ print("Age: ",age)
 line()
 pause()
 
+cls()
+line()
+center(42)
+print("|| Your details ||")
+line()
+print("Name:",bool(name))
+print("Age: ",+bool(age),"\n# 1 Output means its true..")
+line()
+pause()
 
