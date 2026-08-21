@@ -34,7 +34,7 @@ print("|| Checking ||")
 line()
 
 if 'a' not in name or 'A' not in name:
-    print(name.capitalize(),"Verified.....")
+    print(name.title(),"Verified.....")
 else:
     print("No one verified..........")
-line()   
+line()
