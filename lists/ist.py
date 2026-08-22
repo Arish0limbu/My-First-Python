@@ -1,3 +1,19 @@
-name = list(("yum", "jental", "jental"))
+import os
+
+os.system("cls")
+
+name = ["ram", "shyam", "hari"]
+fruit = list(
+    ("apple", "banana", "mango", "cherry", "melon", "papaya")
+)  # List can also write as list((.........))
+
 print(name)
-print(name[0],name[-1],name[2:3])
+print(fruit[0])
+
+fruit[0] = "Lemon"
+fruit.insert(0, "apple")
+print(fruit[0:5])
+
+name.extend(fruit)
+
+print(name)
